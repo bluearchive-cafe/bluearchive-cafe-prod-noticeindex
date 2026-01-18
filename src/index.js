@@ -11,14 +11,14 @@ export default {
 
         if (pathname === indexPath || pathname === patchPath) return new Response(await env.NOTICEINDEX.get(pathname), { headers });
         else if (key === indexPath) {
-            const index = JSON.parse(await env.NOTICEINDEX.get(indexPath));
-            const patch = JSON.parse(await env.NOTICEINDEX.get(patchPath));
-            const status = JSON.parse(await env.RESOURCESTATUS.get(statusKey));
-            const noticeindex = Object.fromEntries(
-                Object.keys({ ...index, ...patch }).map(k =>
-                    [k, Array.isArray(index[k]) && Array.isArray(patch[k]) ? [...index[k], ...patch[k]] : patch[k] ?? index[k]]
-                )
-            );
+            const noticeindex = JSON.parse(await env.NOTICEINDEX.get(indexPath));
+            //const patch = JSON.parse(await env.NOTICEINDEX.get(patchPath));
+            //const status = JSON.parse(await env.RESOURCESTATUS.get(statusKey));
+            //const noticeindex = Object.fromEntries(
+            //    Object.keys({ ...index, ...patch }).map(k =>
+            //        [k, Array.isArray(index[k]) && Array.isArray(patch[k]) ? [...index[k], ...patch[k]] : patch[k] ?? index[k]]
+            //    )
+            //);
             const dash = {
                 "NoticeId": 0,
                 "StartDate": "2026-01-01T00:00:00",
@@ -42,11 +42,11 @@ export default {
                 "DisplayOrder": 0,
                 "PopupOKText": "查看"
             }
-            if (
-                status.table.official.version !== status.table.localized.version ||
-                status.asset.official.version !== status.asset.localized.version ||
-                status.media.official.version !== status.media.localized.version
-            ) noticeindex.GuidePopup.push(popup);
+            //if (
+            //    status.table.official.version !== status.table.localized.version ||
+            //    status.asset.official.version !== status.asset.localized.version ||
+            //    status.media.official.version !== status.media.localized.version
+            //) noticeindex.GuidePopup.push(popup);
             noticeindex.Issues.push(dash);
             return new Response(JSON.stringify(noticeindex, null, 2), { headers });
         }
