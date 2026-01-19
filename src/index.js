@@ -10,9 +10,9 @@ export default {
         const headers = new Headers({ "Content-Type": "application/json; charset=utf-8" });
 
         if (key === indexKey) {
-            const index = await (await env.ASSETS.fetch(new Request(indexKey, request))).json;
-            const patch = await (await env.ASSETS.fetch(new Request(patchKey, request))).json;
-            const custom = await (await env.ASSETS.fetch(new Request(customKey, request))).json;
+            const index = await (await env.ASSETS.fetch(new Request(indexKey, request))).json();
+            const patch = await (await env.ASSETS.fetch(new Request(patchKey, request))).json();
+            const custom = await (await env.ASSETS.fetch(new Request(customKey, request))).json();
             const noticeindex = [index, patch, custom].reduce((acc, cur) => {
                 for (const k in cur) {
                     if (Array.isArray(cur[k]) && Array.isArray(acc[k])) acc[k] = acc[k].concat(cur[k]);
