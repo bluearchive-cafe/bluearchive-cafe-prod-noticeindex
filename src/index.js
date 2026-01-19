@@ -23,8 +23,8 @@ export default {
                 "NoticeId": 0,
                 "StartDate": "2026-01-01T00:00:00",
                 "EndDate": "2099-12-31T23:59:59",
-                "Url": `https://prod-notice.bluearchive.cafe/prod/bluearchive-cafe/dash/index.html?uuid=${uuid}`,
-                "Title": "汉化偏好设置",
+                "Url": `https://bluearchive.cafe/dash.html?uuid=${uuid}`,
+                "Title": "蔚蓝咖啡厅控制面板",
                 "DisplayOrder": 0
             };
             const popup = {
@@ -34,7 +34,7 @@ export default {
                 "StartDate": "2026-01-01T00:00:00",
                 "EndDate": "2099-12-31T23:59:59",
                 "FileName": "banner.png",
-                "Url": "https://prod-notice.bluearchive.cafe/prod/bluearchive-cafe/popup/",
+                "Url": "https://bluearchive.cafe/assets/images/",
                 "Message": "　因版本更新，部分汉化功能暂时失效　请老师耐心等待修复完成！",
                 "SurveyId": 0,
                 "NotifyUrl": null,
