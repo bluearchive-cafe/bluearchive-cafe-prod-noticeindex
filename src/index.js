@@ -1,46 +1,33 @@
 export default {
     async fetch(request, env, ctx) {
-        const pathname = new URL(request.url).pathname.slice(1)
-        const pathparts = pathname.split("/");
+        const path = new URL(request.url).pathname.slice(1)
+        const pathparts = path.split("/");
         const uuid = pathparts.shift();
         const key = pathparts.join("/");
-        const indexPath = "prod/index.json";
-        const patchPath = "prod/patch.json";
+        const indexKey = "prod/index.json";
+        const patchKey = "prod/patch.json";
+        const customKey = "prod/custom.json";
         const headers = new Headers({ "Content-Type": "application/json; charset=utf-8" });
 
-        if (pathname === indexPath || pathname === patchPath) return new Response(await env.NOTICEINDEX.get(pathname), { headers });
-        else if (key === indexPath) {
-            const noticeindex = JSON.parse(await env.NOTICEINDEX.get(indexPath));
-            //const patch = JSON.parse(await env.NOTICEINDEX.get(patchPath));
-            //const noticeindex = Object.fromEntries(
-            //    Object.keys({ ...index, ...patch }).map(k =>
-            //        [k, Array.isArray(index[k]) && Array.isArray(patch[k]) ? [...index[k], ...patch[k]] : patch[k] ?? index[k]]
-            //    )
-            //);
-            const dash = {
+        if (key === indexKey) {
+            const index = await (await env.ASSETS.fetch(indexKey)).json();
+            const patch = await (await env.ASSETS.fetch(patchKey)).json();
+            const custom = await (await env.ASSETS.fetch(customKey)).json();
+            const noticeindex = [index, patch, custom].reduce((acc, cur) => {
+                for (const k in cur) {
+                    if (Array.isArray(cur[k]) && Array.isArray(acc[k])) acc[k] = acc[k].concat(cur[k]);
+                    else acc[k] = cur[k];
+                }
+                return acc;
+            }, {});
+            noticeindex.Issues.push({
                 "NoticeId": 0,
                 "StartDate": "2026-01-01T00:00:00",
                 "EndDate": "2099-12-31T23:59:59",
                 "Url": `https://bluearchive.cafe/dash.html?uuid=${uuid}`,
                 "Title": "蔚蓝咖啡厅控制面板",
                 "DisplayOrder": 0
-            };
-            const popup = {
-                "GuidePopupId": 0,
-                "GuidePopupType": 1,
-                "PopupType": 2,
-                "StartDate": "2026-01-01T00:00:00",
-                "EndDate": "2099-12-31T23:59:59",
-                "FileName": "banner.png",
-                "Url": "https://bluearchive.cafe/assets/images/",
-                "Message": "　因版本更新，部分汉化功能暂时失效　请老师耐心等待修复完成！",
-                "SurveyId": 0,
-                "NotifyUrl": null,
-                "GotoUrl": "https://bluearchive.cafe/status",
-                "DisplayOrder": 0,
-                "PopupOKText": "查看"
-            }
-            noticeindex.Issues.push(dash);
+            });
             return new Response(JSON.stringify(noticeindex, null, 2), { headers });
         }
 
