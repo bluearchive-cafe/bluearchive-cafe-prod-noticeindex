@@ -6,14 +6,12 @@ export default {
         const key = pathparts.join("/");
         const indexPath = "prod/index.json";
         const patchPath = "prod/patch.json";
-        const statusKey = "status.json";
         const headers = new Headers({ "Content-Type": "application/json; charset=utf-8" });
 
         if (pathname === indexPath || pathname === patchPath) return new Response(await env.NOTICEINDEX.get(pathname), { headers });
         else if (key === indexPath) {
             const noticeindex = JSON.parse(await env.NOTICEINDEX.get(indexPath));
             //const patch = JSON.parse(await env.NOTICEINDEX.get(patchPath));
-            //const status = JSON.parse(await env.RESOURCESTATUS.get(statusKey));
             //const noticeindex = Object.fromEntries(
             //    Object.keys({ ...index, ...patch }).map(k =>
             //        [k, Array.isArray(index[k]) && Array.isArray(patch[k]) ? [...index[k], ...patch[k]] : patch[k] ?? index[k]]
@@ -42,11 +40,6 @@ export default {
                 "DisplayOrder": 0,
                 "PopupOKText": "查看"
             }
-            //if (
-            //    status.table.official.version !== status.table.localized.version ||
-            //    status.asset.official.version !== status.asset.localized.version ||
-            //    status.media.official.version !== status.media.localized.version
-            //) noticeindex.GuidePopup.push(popup);
             noticeindex.Issues.push(dash);
             return new Response(JSON.stringify(noticeindex, null, 2), { headers });
         }
