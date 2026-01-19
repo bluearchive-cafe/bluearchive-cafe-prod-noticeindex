@@ -8,15 +8,11 @@ export default {
         const patchKey = "prod/patch.json";
         const customKey = "prod/custom.json";
         const headers = new Headers({ "Content-Type": "application/json; charset=utf-8" });
-        const url = new URL(request.url);
 
         if (key === indexKey) {
-            url.pathname = "/" + indexKey;
-            const index = await (await env.ASSETS.fetch(url)).json();
-            url.pathname = "/" + patchKey;
-            const patch = await (await env.ASSETS.fetch(url)).json();
-            url.pathname = "/" + customKey;
-            const custom = await (await env.ASSETS.fetch(url)).json();
+            const index = await (await env.ASSETS.fetch(`https://assets.local/${indexKey}`)).json();
+            const patch = await (await env.ASSETS.fetch(`https://assets.local/${patchKey}`)).json();
+            const custom = await (await env.ASSETS.fetch(`https://assets.local/${customKey}`)).json();
             const noticeindex = [index, patch, custom].reduce((acc, cur) => {
                 for (const k in cur) {
                     if (Array.isArray(cur[k]) && Array.isArray(acc[k])) acc[k] = acc[k].concat(cur[k]);
@@ -35,6 +31,6 @@ export default {
             return new Response(JSON.stringify(noticeindex, null, 2), { headers });
         }
 
-        return Response.redirect("https://prod-noticeindex.bluearchiveyostar.com/" + key, 302);
+        return Response.redirect(`https://prod-noticeindex.bluearchiveyostar.com/${key}`, 302);
     }
 };
