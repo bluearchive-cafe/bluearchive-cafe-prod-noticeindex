@@ -8,11 +8,15 @@ export default {
         const patchKey = "prod/patch.json";
         const customKey = "prod/custom.json";
         const headers = new Headers({ "Content-Type": "application/json; charset=utf-8" });
+        const url = new URL(request.url);
 
         if (key === indexKey) {
-            const index = await (await env.ASSETS.fetch(new Request(indexKey, request))).json();
-            const patch = await (await env.ASSETS.fetch(new Request(patchKey, request))).json();
-            const custom = await (await env.ASSETS.fetch(new Request(customKey, request))).json();
+            url.pathname = "/" + indexKey;
+            const index = await (await env.ASSETS.fetch(url)).json();
+            url.pathname = "/" + patchKey;
+            const patch = await (await env.ASSETS.fetch(url)).json();
+            url.pathname = "/" + customKey;
+            const custom = await (await env.ASSETS.fetch(url)).json();
             const noticeindex = [index, patch, custom].reduce((acc, cur) => {
                 for (const k in cur) {
                     if (Array.isArray(cur[k]) && Array.isArray(acc[k])) acc[k] = acc[k].concat(cur[k]);
