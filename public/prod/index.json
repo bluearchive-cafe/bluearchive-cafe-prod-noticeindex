@@ -5,7 +5,7 @@
       "StartDate": "2025-12-31T15:00:00",
       "EndDate": "2026-01-31T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/977/3476/index779898026.html",
-      "Title": "学生生日日历",
+      "Title": "蔚蓝档案学生生日日历",
       "DisplayOrder": 0
     },
     {
@@ -13,7 +13,7 @@
       "StartDate": "2026-01-19T15:00:00",
       "EndDate": "2026-01-21T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/979/3488/index759717189.html",
-      "Title": "蔚蓝档案主线剧情更新通知",
+      "Title": "主线剧情更新通知",
       "DisplayOrder": 0
     },
     {
@@ -39,7 +39,7 @@
       "StartDate": "2026-01-19T15:00:00",
       "EndDate": "2026-01-28T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/980/3489/index975380716.html",
-      "Title": "PickUp招募",
+      "Title": "PickUp 招募",
       "DisplayOrder": 0
     },
     {
@@ -209,7 +209,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "全新主线剧情已更新。请重新启动一次应用以生效。\n限时抽卡券的使用期限为\n8月31日（星期三）10:59，请勿忘记使用。\n今日11:00开始进行维护，敬请老师配合。\n为修复漏洞，9月28日01:40将会强制登出一次，请老师配合。"
+    "Text": "新的主线剧情已更新。请重启一次应用以生效。\n限时抽卡券的使用期限为8月31日（星期三）10:59，请务必留意不要忘记。\n今日11:00起进行维护，请老师们配合。\n为修复漏洞，9月28日01:40将会出现一次强制下线，请老师们配合。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -241,7 +241,23 @@
     "Text": "蔚蓝档案2周年特别问卷",
     "NotifyUrl": null
   },
-  "GuidePopup": [],
+  "GuidePopup": [
+    {
+      "GuidePopupId": 44,
+      "GuidePopupType": 1,
+      "PopupType": 1,
+      "StartDate": "2026-01-20T13:04:23",
+      "EndDate": "2026-02-03T13:04:23",
+      "FileName": "PC_release.png",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/44/75/",
+      "Message": "蔚蓝档案 PC版 发布！",
+      "SurveyId": 0,
+      "NotifyUrl": null,
+      "GotoUrl": "https://bluearchive.jp/news/newsJump/627",
+      "DisplayOrder": 1,
+      "PopupOKText": "详细确认"
+    }
+  ],
   "DownloadLimitTime": 0,
   "EnableSQLite": true
 }
