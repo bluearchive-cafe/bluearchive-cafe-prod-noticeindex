@@ -5,7 +5,7 @@
       "StartDate": "2025-12-31T15:00:00",
       "EndDate": "2026-01-31T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/977/3476/index779898026.html",
-      "Title": "学生生日日历",
+      "Title": "蔚蓝档案 学生生日日历",
       "DisplayOrder": 0
     },
     {
@@ -13,7 +13,7 @@
       "StartDate": "2026-01-19T15:00:00",
       "EndDate": "2026-01-21T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/979/3488/index759717189.html",
-      "Title": "主线剧情更新通知",
+      "Title": "蔚蓝档案 主线剧情更新通知",
       "DisplayOrder": 0
     },
     {
@@ -29,7 +29,7 @@
       "StartDate": "2026-01-19T15:30:00",
       "EndDate": "2026-01-29T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/984/3498/index379550767.html",
-      "Title": "Yostar Games充值中心公告",
+      "Title": "Yostar Games 充值中心公告",
       "DisplayOrder": 0
     }
   ],
@@ -257,7 +257,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新的主线剧情已更新。为了生效，请重新启动一次应用。\n限时抽卡券的使用期限为\n8月31日（星期三）10:59止，请务必记得使用。\n今天11:00开始进行维护，敬请老师协助。\n为修复BUG，9月28日01:40将会强制下线一次，敬请老师配合。"
+    "Text": "主线剧情已更新，请重新启动应用以生效。\n限时抽卡券的使用期限为 8月31日（周三）10:59，请务必在此之前使用。\n今日 11:00 起将进行维护，敬请配合。\n因修复问题，9月28日 01:40 将会出现一次强制登出，请注意保存进度。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -286,7 +286,7 @@
     "EndDate": "2023-01-23T23:59:59",
     "FileName": "Lobby_Banner.png",
     "Url": "https://prod-notice.bluearchiveyostar.com/prod/SurveyGuidePopup/199990730/",
-    "Text": "蔚蓝档案2周年 特别问卷",
+    "Text": "蔚蓝档案 2周年 特别问卷",
     "NotifyUrl": null
   },
   "GuidePopup": [
@@ -303,7 +303,22 @@
       "NotifyUrl": null,
       "GotoUrl": "https://bluearchive.jp/news/newsJump/627",
       "DisplayOrder": 1,
-      "PopupOKText": "详细确认"
+      "PopupOKText": "查看详情"
+    },
+    {
+      "GuidePopupId": 45,
+      "GuidePopupType": 0,
+      "PopupType": 1,
+      "StartDate": "2026-01-20T13:15:50",
+      "EndDate": "2026-02-02T23:59:59",
+      "FileName": "5th_survey_banner.png",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/45/78/",
+      "Message": "协助问卷，领取奖励吧！",
+      "SurveyId": 338603093,
+      "NotifyUrl": null,
+      "GotoUrl": null,
+      "DisplayOrder": 1,
+      "PopupOKText": ""
     }
   ],
   "DownloadLimitTime": 0,
