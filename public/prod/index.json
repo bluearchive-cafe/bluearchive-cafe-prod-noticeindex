@@ -13,7 +13,7 @@
       "StartDate": "2026-01-19T15:00:00",
       "EndDate": "2026-01-21T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/979/3488/index759717189.html",
-      "Title": "主线剧情更新公告",
+      "Title": "主线剧情更新通知",
       "DisplayOrder": 0
     },
     {
@@ -29,7 +29,7 @@
       "StartDate": "2026-01-19T15:30:00",
       "EndDate": "2026-01-29T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/984/3498/index379550767.html",
-      "Title": "Yostar Games充值中心公告",
+      "Title": "Yostar Games充值中心通知",
       "DisplayOrder": 0
     }
   ],
@@ -67,6 +67,42 @@
         "Event_Banner_840_Jp_81592377.png"
       ],
       "LinkedLobbyBannerId": 10840,
+      "BannerType": 0,
+      "BannerDisplayType": 0
+    },
+    {
+      "BannerId": 813,
+      "StartDate": "2026-01-20T11:09:11",
+      "EndDate": "2026-01-29T10:59:59",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/813/1064/",
+      "FileName": [
+        "Lobby_Banner_20260120_01_493416845.png"
+      ],
+      "LinkedLobbyBannerId": 921,
+      "BannerType": 1,
+      "BannerDisplayType": 0
+    },
+    {
+      "BannerId": 814,
+      "StartDate": "2026-01-20T11:14:05",
+      "EndDate": "2026-01-29T10:59:59",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/814/1065/",
+      "FileName": [
+        "Lobby_Banner_20260120_02_367869353.png"
+      ],
+      "LinkedLobbyBannerId": 922,
+      "BannerType": 1,
+      "BannerDisplayType": 0
+    },
+    {
+      "BannerId": 819,
+      "StartDate": "2026-01-20T11:59:57",
+      "EndDate": "2026-02-18T10:59:59",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/819/1071/",
+      "FileName": [
+        "Event_Banner_854_1_Jp_112516477.png"
+      ],
+      "LinkedLobbyBannerId": 854,
       "BannerType": 0,
       "BannerDisplayType": 0
     }
@@ -173,7 +209,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新主线剧情已更新。请重启一次应用以生效。\n限时抽卡券的使用期限为8月31日（星期三）10:59，请务必记得使用。\n今天11:00起将进行维护，请老师配合。\n为修复错误，9月28日01:40将会强制登出一次，请老师配合。"
+    "Text": "蔚蓝档案全新主线剧情已更新。为使其生效，请重新启动一次应用。\n限时抽卡券的使用期限为\n8月31日（周三）10:59止，请勿忘记。\n今日11:00开始进行维护，敬请老师协助。\n为修复漏洞，9月28日01:40将会强制登出一次，敬请老师协助。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -202,7 +238,7 @@
     "EndDate": "2023-01-23T23:59:59",
     "FileName": "Lobby_Banner.png",
     "Url": "https://prod-notice.bluearchiveyostar.com/prod/SurveyGuidePopup/199990730/",
-    "Text": "蔚蓝档案2周年特别问卷",
+    "Text": "蔚蓝档案2周年　特别问卷",
     "NotifyUrl": null
   },
   "GuidePopup": [
@@ -214,12 +250,12 @@
       "EndDate": "2025-10-18T21:30:00",
       "FileName": "Live2510.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/37/68/",
-      "Message": "蔚蓝档案直播！正在放送！",
+      "Message": "           蔚蓝档案直播！      正在播出！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://app.adjust.com/1t3ih5al?redirect=https%3A%2F%2Fyoutube.com%2Flive%2FDw7y4DNohkA",
       "DisplayOrder": 0,
-      "PopupOKText": "前往观看"
+      "PopupOKText": "去观看"
     },
     {
       "GuidePopupId": 38,
@@ -229,12 +265,12 @@
       "EndDate": "2025-12-20T21:45:00",
       "FileName": "Live202512.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/38/69/",
-      "Message": "蔚蓝档案直播！正在放送！",
+      "Message": "           蔚蓝档案直播！      正在播出！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://app.adjust.com/1vrvvaqx?redirect=https%3A%2F%2Fyoutube.com%2Flive%2FTo4kTwOHslU",
       "DisplayOrder": 0,
-      "PopupOKText": "前往观看"
+      "PopupOKText": "去观看"
     },
     {
       "GuidePopupId": 39,
@@ -244,12 +280,12 @@
       "EndDate": "2026-01-17T14:45:00",
       "FileName": "5th_stage_Day1.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/39/70/",
-      "Message": "蔚蓝档案FES！特别关卡，快去观看吧！",
+      "Message": "   蔚蓝档案FES！特别舞台　一起去观看吧！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://app.adjust.com/1wo7xc94?redirect=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmdafTit0lTA",
       "DisplayOrder": 0,
-      "PopupOKText": "前往观看"
+      "PopupOKText": "去观看"
     },
     {
       "GuidePopupId": 40,
@@ -259,12 +295,12 @@
       "EndDate": "2026-01-17T17:45:00",
       "FileName": "5th_Live_Day1.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/40/71/",
-      "Message": "蔚蓝档案直播！FES专场！快去观看！",
+      "Message": "蔚蓝档案直播！FES特别直播！　一起去观看吧！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://app.adjust.com/1wo7xc94?redirect=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmdafTit0lTA",
       "DisplayOrder": 0,
-      "PopupOKText": "前往观看"
+      "PopupOKText": "去观看"
     },
     {
       "GuidePopupId": 41,
@@ -274,12 +310,12 @@
       "EndDate": "2026-01-18T14:45:00",
       "FileName": "5th_stage_Day2.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/41/72/",
-      "Message": "蔚蓝档案FES！特别关卡，快去观看吧！",
+      "Message": "   蔚蓝档案FES！特别舞台　一起去观看吧！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://app.adjust.com/1wefhoz0?redirect=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkgCwc2EHDgY",
       "DisplayOrder": 0,
-      "PopupOKText": "前往观看"
+      "PopupOKText": "去观看"
     },
     {
       "GuidePopupId": 42,
@@ -289,12 +325,12 @@
       "EndDate": "2026-01-18T17:45:00",
       "FileName": "5th_Live_Day2.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/42/73/",
-      "Message": "蔚蓝档案直播！FES专场！快去观看！",
+      "Message": "蔚蓝档案直播！FES特别直播！　一起去观看吧！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://app.adjust.com/1wefhoz0?redirect=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkgCwc2EHDgY",
       "DisplayOrder": 0,
-      "PopupOKText": "前往观看"
+      "PopupOKText": "去观看"
     }
   ],
   "DownloadLimitTime": 0,
