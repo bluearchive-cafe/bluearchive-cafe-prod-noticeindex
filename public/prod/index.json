@@ -5,7 +5,7 @@
       "StartDate": "2025-12-31T15:00:00",
       "EndDate": "2026-01-31T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/977/3476/index779898026.html",
-      "Title": "学生生日日历",
+      "Title": "蔚蓝档案生日日历",
       "DisplayOrder": 0
     },
     {
@@ -13,7 +13,7 @@
       "StartDate": "2026-01-19T15:00:00",
       "EndDate": "2026-01-21T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/979/3488/index759717189.html",
-      "Title": "主线剧情更新公告",
+      "Title": "蔚蓝档案 主线剧情更新通知",
       "DisplayOrder": 0
     },
     {
@@ -208,36 +208,6 @@
       "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/532/index.html",
       "LinkedLobbyBannerId": 7000,
       "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 533,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/533/index.html",
-      "LinkedLobbyBannerId": 913,
-      "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 534,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/534/index.html",
-      "LinkedLobbyBannerId": 914,
-      "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 535,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/535/index.html",
-      "LinkedLobbyBannerId": 915,
-      "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 536,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/536/index.html",
-      "LinkedLobbyBannerId": 916,
-      "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 537,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/537/index.html",
-      "LinkedLobbyBannerId": 917,
-      "GachaDisplayTag": -1
     }
   ],
   "MarketAppleId": null,
@@ -245,7 +215,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "全新主线剧情已更新。为使其生效，请重启一次应用。\n限时抽卡券的使用期限为8月31日（周三）10:59，请务必记得使用。\n今天11:00开始进行维护，敬请老师配合。\n为修复漏洞，9月28日01:40将出现一次强制登出，敬请老师配合。"
+    "Text": "新主线剧情已更新，请重新启动应用以生效。\n期间限定的抽卡券使用期限至8月31日（周三）10:59，请务必记得使用。\n今日11:00开始维护，老师们请配合。\n为修复缺陷，9月28日01:40将会出现一次强制下线，请老师们配合。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -286,7 +256,7 @@
       "EndDate": "2026-02-03T13:04:23",
       "FileName": "PC_release.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/44/75/",
-      "Message": "《蔚蓝档案》PC版 发布！",
+      "Message": "《蔚蓝档案》PC版 已发布！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://bluearchive.jp/news/newsJump/627",
@@ -301,7 +271,7 @@
       "EndDate": "2026-02-02T23:59:59",
       "FileName": "5th_survey_banner.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/45/78/",
-      "Message": "配合问卷调查，领取奖励吧！",
+      "Message": "请协助问卷，领取奖励！",
       "SurveyId": 338603093,
       "NotifyUrl": null,
       "GotoUrl": null,
