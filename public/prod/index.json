@@ -13,7 +13,7 @@
       "StartDate": "2026-01-19T15:00:00",
       "EndDate": "2026-01-21T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/979/3488/index759717189.html",
-      "Title": "主线剧情更新公告",
+      "Title": "蔚蓝档案主线剧情更新公告",
       "DisplayOrder": 0
     },
     {
@@ -39,7 +39,7 @@
       "StartDate": "2026-01-19T15:00:00",
       "EndDate": "2026-01-28T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/980/3489/index975380716.html",
-      "Title": "PickUp招募",
+      "Title": "PickUp 招募",
       "DisplayOrder": 0
     },
     {
@@ -71,7 +71,7 @@
       "BannerDisplayType": 0
     }
   ],
-  "ServerStatus": 7,
+  "ServerStatus": 5,
   "LatestClientVersion": "1.64.391335",
   "LatestAndroidClientVersion": "1.64.391335",
   "LatestIosClientVersion": "1.64.391335",
@@ -173,7 +173,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新的主线剧情已更新。请重新启动一次应用以生效。\n期间限定的抽卡券使用期限为\n8月31日（周三）10:59止，请勿忘记。\n今日11:00开始进行维护，敬请老师配合。\n为修复漏洞，9月28日01:40将强制登出一次，请老师配合。"
+    "Text": "蔚蓝档案全新主线剧情已更新。请重新启动一次应用以生效。\n期间限定的抽卡券使用期限为\n8月31日（星期三）10:59止，请务必留意不要忘记。\n今日11:00将进行维护，敬请老师协力配合。\n为修复Bug，9月28日01:40将出现一次强制下线，同样请老师配合。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -214,7 +214,7 @@
       "EndDate": "2025-10-18T21:30:00",
       "FileName": "Live2510.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/37/68/",
-      "Message": "蓝档案直播中！",
+      "Message": "蔚蓝档案直播！ 正在播出！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://app.adjust.com/1t3ih5al?redirect=https%3A%2F%2Fyoutube.com%2Flive%2FDw7y4DNohkA",
@@ -229,7 +229,7 @@
       "EndDate": "2025-12-20T21:45:00",
       "FileName": "Live202512.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/38/69/",
-      "Message": "蓝档案直播中！",
+      "Message": "蔚蓝档案直播！ 正在播出！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://app.adjust.com/1vrvvaqx?redirect=https%3A%2F%2Fyoutube.com%2Flive%2FTo4kTwOHslU",
@@ -244,7 +244,7 @@
       "EndDate": "2026-01-17T14:45:00",
       "FileName": "5th_stage_Day1.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/39/70/",
-      "Message": "蔚蓝档案二周年特别舞台，快去观看！",
+      "Message": "蔚蓝档案フェス！特别舞台，快去观看吧！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://app.adjust.com/1wo7xc94?redirect=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmdafTit0lTA",
@@ -259,7 +259,7 @@
       "EndDate": "2026-01-17T17:45:00",
       "FileName": "5th_Live_Day1.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/40/71/",
-      "Message": "蔚蓝档案直播！五周年特别SP，快去观看！",
+      "Message": "蔚蓝档案直播！第五周年SP！快去观看吧！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://app.adjust.com/1wo7xc94?redirect=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmdafTit0lTA",
@@ -274,7 +274,7 @@
       "EndDate": "2026-01-18T14:45:00",
       "FileName": "5th_stage_Day2.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/41/72/",
-      "Message": "蔚蓝档案二周年特别舞台，快去观看！",
+      "Message": "蔚蓝档案フェス！特别舞台，快去观看吧！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://app.adjust.com/1wefhoz0?redirect=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkgCwc2EHDgY",
@@ -289,7 +289,7 @@
       "EndDate": "2026-01-18T17:45:00",
       "FileName": "5th_Live_Day2.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/42/73/",
-      "Message": "蔚蓝档案直播！五周年特别SP，快去观看！",
+      "Message": "蔚蓝档案直播！第五周年SP！快去观看吧！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://app.adjust.com/1wefhoz0?redirect=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkgCwc2EHDgY",
