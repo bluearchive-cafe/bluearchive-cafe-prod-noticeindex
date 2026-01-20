@@ -13,7 +13,7 @@
       "StartDate": "2026-01-19T15:00:00",
       "EndDate": "2026-01-21T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/979/3488/index759717189.html",
-      "Title": "主线剧情更新公告",
+      "Title": "主线剧情更新通知",
       "DisplayOrder": 0
     },
     {
@@ -29,7 +29,7 @@
       "StartDate": "2026-01-19T15:30:00",
       "EndDate": "2026-01-29T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/984/3498/index379550767.html",
-      "Title": "Yostar Games 充值中心公告",
+      "Title": "Yostar Games充值中心通知",
       "DisplayOrder": 0
     }
   ],
@@ -39,7 +39,7 @@
       "StartDate": "2026-01-19T15:00:00",
       "EndDate": "2026-01-28T10:59:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/980/3489/index975380716.html",
-      "Title": "PickUp 招募",
+      "Title": "概率提升招募",
       "DisplayOrder": 0
     },
     {
@@ -80,18 +80,6 @@
       ],
       "LinkedLobbyBannerId": 922,
       "BannerType": 1,
-      "BannerDisplayType": 0
-    },
-    {
-      "BannerId": 819,
-      "StartDate": "2026-01-20T11:59:57",
-      "EndDate": "2026-02-18T10:59:59",
-      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/819/1071/",
-      "FileName": [
-        "Event_Banner_854_1_Jp_112516477.png"
-      ],
-      "LinkedLobbyBannerId": 854,
-      "BannerType": 0,
       "BannerDisplayType": 0
     },
     {
@@ -140,6 +128,18 @@
       ],
       "LinkedLobbyBannerId": 2410,
       "BannerType": 1,
+      "BannerDisplayType": 0
+    },
+    {
+      "BannerId": 825,
+      "StartDate": "2026-01-20T16:49:16",
+      "EndDate": "2026-02-18T10:59:59",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/825/1081/",
+      "FileName": [
+        "Event_Banner_854_1_Jp_812166001.png"
+      ],
+      "LinkedLobbyBannerId": 854,
+      "BannerType": 42,
       "BannerDisplayType": 0
     }
   ],
@@ -281,7 +281,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新主线剧情已更新。请重新启动一次应用以生效。\n限时抽卡券的使用期限至8月31日（周三）10:59，请勿忘记。\n今日11:00开始维护，老师们请配合。\n为修复BUG，9月28日01:40将会强制下线一次，请老师们配合。"
+    "Text": "新主线剧情已更新。请重新启动一次应用以生效。\n期间限定的抽卡券使用期限至\n8月31日（周三）10:59止，请勿忘记。\n今天上午11:00将进行维护，恳请老师配合。\n为修复bug，9月28日01:40将进行一次强制登出，敬请老师配合。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -322,12 +322,12 @@
       "EndDate": "2026-02-03T13:04:23",
       "FileName": "PC_release.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/44/75/",
-      "Message": "《蔚蓝档案》PC版 已上线！",
+      "Message": "《蔚蓝档案》PC版 已发布！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://bluearchive.jp/news/newsJump/627",
       "DisplayOrder": 1,
-      "PopupOKText": "详细确认"
+      "PopupOKText": "查看详情"
     },
     {
       "GuidePopupId": 45,
