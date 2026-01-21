@@ -8,7 +8,7 @@
       "EndDate": "2099-12-31T23:59:59",
       "FileName": "banner.png",
       "Url": "https://bluearchive.cafe/assets/images/",
-      "Message": "因请求数超出超额，明早八点之前可能无法登录，请老师尽早清理体力！",
+      "Message": "因请求数超出限额，明早八点之前可能无法登录，请老师尽早清理体力！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://bluearchive.cafe",
