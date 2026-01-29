@@ -41,7 +41,7 @@
       "StartDate": "2026-01-20T20:13:26",
       "EndDate": "2026-02-12T12:00:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/985/3505/index379949802.html",
-      "Title": "[1月20日（星期二）]已知的漏洞",
+      "Title": "[1月20日（星期二）]已知的缺陷",
       "DisplayOrder": 0
     }
   ],
@@ -109,6 +109,54 @@
       ],
       "LinkedLobbyBannerId": 854,
       "BannerType": 42,
+      "BannerDisplayType": 0
+    },
+    {
+      "BannerId": 815,
+      "StartDate": "2026-01-29T11:00:00",
+      "EndDate": "2026-02-05T10:59:59",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/815/1066/",
+      "FileName": [
+        "Lobby_Banner_20260120_03_130029452.png"
+      ],
+      "LinkedLobbyBannerId": 924,
+      "BannerType": 1,
+      "BannerDisplayType": 0
+    },
+    {
+      "BannerId": 816,
+      "StartDate": "2026-01-29T11:00:00",
+      "EndDate": "2026-02-05T10:59:59",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/816/1067/",
+      "FileName": [
+        "Lobby_Banner_20260120_04_907965602.png"
+      ],
+      "LinkedLobbyBannerId": 925,
+      "BannerType": 1,
+      "BannerDisplayType": 0
+    },
+    {
+      "BannerId": 817,
+      "StartDate": "2026-01-29T11:00:00",
+      "EndDate": "2026-02-05T10:59:59",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/817/1068/",
+      "FileName": [
+        "Lobby_Banner_20260120_05_531368418.png"
+      ],
+      "LinkedLobbyBannerId": 926,
+      "BannerType": 1,
+      "BannerDisplayType": 0
+    },
+    {
+      "BannerId": 818,
+      "StartDate": "2026-01-29T11:00:00",
+      "EndDate": "2026-02-05T10:59:59",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/818/1070/",
+      "FileName": [
+        "Lobby_Banner_20260120_06_131510521.png"
+      ],
+      "LinkedLobbyBannerId": 927,
+      "BannerType": 1,
       "BannerDisplayType": 0
     }
   ],
@@ -250,7 +298,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新的主线剧情已更新。请重新启动一次应用以生效。\n限时抽卡券的使用期限至8月31日（星期三）10:59，请务必记得使用。\n今天上午11:00开始进行维护，感谢老师的配合。\n为修复漏洞，2023年9月28日01:40将会强制登出一次，感谢老师的配合。"
+    "Text": "新的主线故事已更新。为使其生效，请重新启动一次应用。\n期间限定的抽卡券使用期限至8月31日（星期三）10:59，请务必牢记。\n今日11:00开始进行维护。请老师配合。\n为修正缺陷，9月28日01:40将会一次强制登出。请老师配合。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -291,7 +339,7 @@
       "EndDate": "2026-02-03T13:04:23",
       "FileName": "PC_release.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/44/75/",
-      "Message": "「蔚蓝档案」PC版 发布！",
+      "Message": "“蔚蓝档案”PC版 发布！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://bluearchive.jp/news/newsJump/627",
@@ -306,7 +354,7 @@
       "EndDate": "2026-02-02T23:59:59",
       "FileName": "5th_survey_banner.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/45/78/",
-      "Message": "请协助问卷调查，领取奖励！",
+      "Message": "请协助问卷，获取奖励！",
       "SurveyId": 338603093,
       "NotifyUrl": null,
       "GotoUrl": null,
