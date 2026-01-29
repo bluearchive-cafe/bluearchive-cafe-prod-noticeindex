@@ -41,7 +41,7 @@
       "StartDate": "2026-01-20T20:13:26",
       "EndDate": "2026-02-12T12:00:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/985/3505/index379949802.html",
-      "Title": "[1月20日（星期二）]已知问题",
+      "Title": "[1月20日（星期二）]已知的错误",
       "DisplayOrder": 0
     }
   ],
@@ -100,12 +100,12 @@
       "BannerDisplayType": 0
     },
     {
-      "BannerId": 825,
-      "StartDate": "2026-01-20T16:49:16",
-      "EndDate": "2026-02-18T10:59:59",
-      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/825/1081/",
+      "BannerId": 827,
+      "StartDate": "2026-01-29T11:16:41",
+      "EndDate": "2026-03-04T10:59:59",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/827/1084/",
       "FileName": [
-        "Event_Banner_854_1_Jp_812166001.png"
+        "Event_Banner_854_2_Jp_30708441.png"
       ],
       "LinkedLobbyBannerId": 854,
       "BannerType": 42,
@@ -250,7 +250,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "全新主线剧情已更新。请重新启动一次应用以生效。\n限时抽卡券的使用期限至8月31日（星期三）10:59，请务必记得使用。\n今日11:00开始进行维护，恳请老师们配合。\n为修复问题，9月28日01:40会出现一次强制登出，请老师们配合。"
+    "Text": "新しいメインストーリーが更新されました。適用するため、アプリを一回再起動してください。\n期間限定のガチャチケットの使用期限は\n8月31日(水)の10:59までとなっております、お忘れになりませんよう、ご注意ください。\n本日11:00からメンテナンスを行います。先生のご協力をお願いいたします。\n不具合修正のため、9月28日01:40に一回強制ログアウトが発生します。先生のご協力をお願いいたします。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -279,7 +279,7 @@
     "EndDate": "2023-01-23T23:59:59",
     "FileName": "Lobby_Banner.png",
     "Url": "https://prod-notice.bluearchiveyostar.com/prod/SurveyGuidePopup/199990730/",
-    "Text": "蔚蓝档案2周年 特别问卷调查",
+    "Text": "蔚蓝档案2周年 特别问卷",
     "NotifyUrl": null
   },
   "GuidePopup": [
@@ -291,7 +291,7 @@
       "EndDate": "2026-02-03T13:04:23",
       "FileName": "PC_release.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/44/75/",
-      "Message": "「蔚蓝档案」PC版 发布！",
+      "Message": "《蔚蓝档案》PC版 发布！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://bluearchive.jp/news/newsJump/627",
@@ -306,7 +306,7 @@
       "EndDate": "2026-02-02T23:59:59",
       "FileName": "5th_survey_banner.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/45/78/",
-      "Message": "协助问卷调查，领取奖励吧！",
+      "Message": "配合问卷，领取奖励吧！",
       "SurveyId": 338603093,
       "NotifyUrl": null,
       "GotoUrl": null,
