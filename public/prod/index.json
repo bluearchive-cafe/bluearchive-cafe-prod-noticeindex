@@ -1,14 +1,6 @@
 {
   "Notices": [
     {
-      "NoticeId": 977,
-      "StartDate": "2025-12-31T15:00:00",
-      "EndDate": "2026-01-31T10:59:00",
-      "Url": "https://prod-notice.bluearchive.cafe/prod/977/3476/index779898026.html",
-      "Title": "学生生日日历",
-      "DisplayOrder": 0
-    },
-    {
       "NoticeId": 988,
       "StartDate": "2026-01-28T15:00:00",
       "EndDate": "2026-02-04T10:59:00",
@@ -41,7 +33,7 @@
       "StartDate": "2026-01-20T20:13:26",
       "EndDate": "2026-02-12T12:00:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/985/3505/index379949802.html",
-      "Title": "[1月20日（星期二）]已知的错误",
+      "Title": "[1月20日(火曜日)]已知的故障",
       "DisplayOrder": 0
     }
   ],
@@ -298,7 +290,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新しいメインストーリーが更新されました。適用するため、アプリを一回再起動してください。\n期間限定のガチャチケットの使用期限は\n8月31日(水)の10:59までとなっております、お忘れになりませんよう、ご注意ください。\n本日11:00からメンテナンスを行います。先生のご協力をお願いいたします。\n不具合修正のため、9月28日01:40に一回強制ログアウトが発生します。先生のご協力をお願いいたします。"
+    "Text": "新的主线剧情已更新。请重新启动一次应用以应用更新。\n限时抽卡券的使用期限为\n8月31日（星期三）10:59止，请留意不要忘记。\n今天11:00将进行维护，恳请老师配合。\n为修复故障，9月28日01:40会出现一次强制登出。恳请老师配合。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -327,7 +319,7 @@
     "EndDate": "2023-01-23T23:59:59",
     "FileName": "Lobby_Banner.png",
     "Url": "https://prod-notice.bluearchiveyostar.com/prod/SurveyGuidePopup/199990730/",
-    "Text": "蔚蓝档案2周年 特别问卷",
+    "Text": "蔚蓝档案2周年 特别问卷调查",
     "NotifyUrl": null
   },
   "GuidePopup": [
@@ -339,7 +331,7 @@
       "EndDate": "2026-02-03T13:04:23",
       "FileName": "PC_release.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/44/75/",
-      "Message": "「蔚蓝档案」PC版 发布！",
+      "Message": "《蔚蓝档案》PC版 已发布！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://bluearchive.jp/news/newsJump/627",
@@ -354,7 +346,7 @@
       "EndDate": "2026-02-02T23:59:59",
       "FileName": "5th_survey_banner.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/45/78/",
-      "Message": "参与问卷调查，领取奖励吧！",
+      "Message": "请配合问卷调查并领取奖励！",
       "SurveyId": 338603093,
       "NotifyUrl": null,
       "GotoUrl": null,
