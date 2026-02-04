@@ -1,39 +1,13 @@
 {
-  "Notices": [
-    {
-      "NoticeId": 988,
-      "StartDate": "2026-01-28T15:00:00",
-      "EndDate": "2026-02-04T10:59:00",
-      "Url": "https://prod-notice.bluearchive.cafe/prod/988/3512/index817983927.html",
-      "Title": "维护",
-      "DisplayOrder": 0
-    }
-  ],
-  "Events": [
-    {
-      "NoticeId": 986,
-      "StartDate": "2026-01-28T14:00:00",
-      "EndDate": "2026-02-04T10:59:00",
-      "Url": "https://prod-notice.bluearchive.cafe/prod/986/3508/index617681886.html",
-      "Title": "概率提升招募",
-      "DisplayOrder": 0
-    },
-    {
-      "NoticeId": 987,
-      "StartDate": "2026-01-28T15:00:00",
-      "EndDate": "2026-02-04T10:59:00",
-      "Url": "https://prod-notice.bluearchive.cafe/prod/987/3511/index297722251.html",
-      "Title": "活动介绍",
-      "DisplayOrder": 0
-    }
-  ],
+  "Notices": [],
+  "Events": [],
   "Issues": [
     {
       "NoticeId": 985,
       "StartDate": "2026-01-20T20:13:26",
       "EndDate": "2026-02-12T12:00:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/985/3505/index379949802.html",
-      "Title": "[1月20日（星期二）]已知的缺陷",
+      "Title": "[1月20日（星期二）] 已知的异常",
       "DisplayOrder": 0
     }
   ],
@@ -320,21 +294,21 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新的主线剧情已更新。\n请重新启动应用一次以应用更新。\n限时抽卡券的使用期限为\n截至8月31日（星期三）10:59，请注意不要忘记使用。\n今天从11:00开始进行维护。请老师配合。\n为修复缺陷，9月28日01:40将会强制登出一次，请老师配合。"
+    "Text": "新的主线剧情已更新。请重新启动一次应用以生效。\n期间限定的抽卡券使用期限为8月31日（星期三）10:59止，请务必注意不要忘记。\n今天11:00起进行维护。请老师配合，谢谢。\n为修复不具合，将于9月28日01:40发生一次强制登出。请老师配合，谢谢。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
     {
       "GachaPeriodDisplayId": 141,
-      "Text": "2022/02/23 メンテナンス後 ～ 2022/03/09 メンテナンス前まで"
+      "Text": "2022/02/23 维护后 ～ 2022/03/09 维护前"
     },
     {
       "GachaPeriodDisplayId": 142,
-      "Text": "2022/02/23 メンテナンス後 ～ 2022/03/09 メンテナンス前まで"
+      "Text": "2022/02/23 维护后 ～ 2022/03/09 维护前"
     },
     {
       "GachaPeriodDisplayId": 140,
-      "Text": "2022/02/23 メンテナンス後 ～ 2022/03/09 メンテナンス前まで"
+      "Text": "2022/02/23 维护后 ～ 2022/03/09 维护前"
     },
     {
       "GachaPeriodDisplayId": 6000,
@@ -349,7 +323,7 @@
     "EndDate": "2023-01-23T23:59:59",
     "FileName": "Lobby_Banner.png",
     "Url": "https://prod-notice.bluearchiveyostar.com/prod/SurveyGuidePopup/199990730/",
-    "Text": "蔚蓝档案2周年　特别问卷",
+    "Text": "蔚蓝档案2周年 特别问卷",
     "NotifyUrl": null
   },
   "GuidePopup": [
@@ -361,7 +335,7 @@
       "EndDate": "2026-02-03T13:04:23",
       "FileName": "PC_release.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/44/75/",
-      "Message": "「蔚蓝档案」PC版 发布！",
+      "Message": "“蔚蓝档案”PC版 发布！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://bluearchive.jp/news/newsJump/627",
@@ -376,7 +350,7 @@
       "EndDate": "2026-02-02T23:59:59",
       "FileName": "5th_survey_banner.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/45/78/",
-      "Message": "请协助问卷，领取奖励！",
+      "Message": "请协助填写问卷，获取奖励！",
       "SurveyId": 338603093,
       "NotifyUrl": null,
       "GotoUrl": null,
