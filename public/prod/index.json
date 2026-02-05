@@ -18,54 +18,6 @@
   },
   "Banners": [
     {
-      "BannerId": 815,
-      "StartDate": "2026-01-29T11:00:00",
-      "EndDate": "2026-02-05T10:59:59",
-      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/815/1066/",
-      "FileName": [
-        "Lobby_Banner_20260120_03_130029452.png"
-      ],
-      "LinkedLobbyBannerId": 924,
-      "BannerType": 1,
-      "BannerDisplayType": 0
-    },
-    {
-      "BannerId": 816,
-      "StartDate": "2026-01-29T11:00:00",
-      "EndDate": "2026-02-05T10:59:59",
-      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/816/1067/",
-      "FileName": [
-        "Lobby_Banner_20260120_04_907965602.png"
-      ],
-      "LinkedLobbyBannerId": 925,
-      "BannerType": 1,
-      "BannerDisplayType": 0
-    },
-    {
-      "BannerId": 817,
-      "StartDate": "2026-01-29T11:00:00",
-      "EndDate": "2026-02-05T10:59:59",
-      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/817/1068/",
-      "FileName": [
-        "Lobby_Banner_20260120_05_531368418.png"
-      ],
-      "LinkedLobbyBannerId": 926,
-      "BannerType": 1,
-      "BannerDisplayType": 0
-    },
-    {
-      "BannerId": 818,
-      "StartDate": "2026-01-29T11:00:00",
-      "EndDate": "2026-02-05T10:59:59",
-      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/818/1070/",
-      "FileName": [
-        "Lobby_Banner_20260120_06_131510521.png"
-      ],
-      "LinkedLobbyBannerId": 927,
-      "BannerType": 1,
-      "BannerDisplayType": 0
-    },
-    {
       "BannerId": 828,
       "StartDate": "2026-01-29T12:25:26",
       "EndDate": "2026-03-04T10:59:59",
@@ -342,7 +294,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新的主线剧情已更新。为使其生效，请重新启动一次应用。\n期间限定的抽卡券使用期限是\n8月31日（星期三）10:59止，请勿忘记。\n今天11:00开始进行维护。请老师协助。\n为修复缺陷，9月28日01:40会出现一次强制登出。请老师协助。"
+    "Text": "主线剧情已更新，请重新启动一次应用以应用更新。\n限时抽卡券的使用期限为8月31日（星期三）10:59，请务必记得使用。\n今天11:00开始进行维护，请老师配合。\n为修复错误，9月28日01:40将进行一次强制退出，请老师配合。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -371,7 +323,7 @@
     "EndDate": "2023-01-23T23:59:59",
     "FileName": "Lobby_Banner.png",
     "Url": "https://prod-notice.bluearchiveyostar.com/prod/SurveyGuidePopup/199990730/",
-    "Text": "蔚蓝档案2周年 特别问卷",
+    "Text": "蔚蓝档案2周年　特别问卷",
     "NotifyUrl": null
   },
   "GuidePopup": [
@@ -383,12 +335,12 @@
       "EndDate": "2026-02-03T13:04:23",
       "FileName": "PC_release.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/44/75/",
-      "Message": "《蔚蓝档案》PC版 发布！",
+      "Message": "“蔚蓝档案”PC版 发布！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://bluearchive.jp/news/newsJump/627",
       "DisplayOrder": 1,
-      "PopupOKText": "查看详情"
+      "PopupOKText": "详细确认"
     },
     {
       "GuidePopupId": 45,
@@ -398,7 +350,7 @@
       "EndDate": "2026-02-02T23:59:59",
       "FileName": "5th_survey_banner.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/45/78/",
-      "Message": "请协助问卷调查，获取奖励！",
+      "Message": "参与问卷调查，领取奖励吧！",
       "SurveyId": 338603093,
       "NotifyUrl": null,
       "GotoUrl": null,
