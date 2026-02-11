@@ -4,7 +4,7 @@
       "NoticeId": 992,
       "StartDate": "2026-02-11T15:00:00",
       "EndDate": "2026-02-18T11:00:00",
-      "Url": "https://prod-notice.bluearchive.cafe/prod/992/3518/index931179619.html",
+      "Url": "https://prod-notice.bluearchive.cafe/prod/992/3519/index150647159.html",
       "Title": "维护",
       "DisplayOrder": 0
     }
@@ -41,7 +41,7 @@
       "StartDate": "2026-01-20T20:13:26",
       "EndDate": "2026-02-12T12:00:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/985/3505/index379949802.html",
-      "Title": "[1月20日（星期二）]已知的错误",
+      "Title": "[1月20日(星期二)]已知的错误",
       "DisplayOrder": 0
     }
   ],
@@ -328,7 +328,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新しいメインストーリーが更新されました。適用するため、アプリを一回再起動してください。\n期間限定のガチャチケットの使用期限は\n8月31日(水)の10:59までとなっております、お忘れになりませんよう、ご注意ください。\n本日11:00からメンテナンスを行います。先生のご協力をお願いいたします。\n不具合修正のため、9月28日01:40に一回強制ログアウトが発生します。先生のご協力をお願いいたします。"
+    "Text": "新主线剧情已更新。请重新启动应用以应用更新。\n限时抽卡券的使用期限为8月31日（周三）10:59，请务必在期限前使用。\n今日11:00将进行维护，敬请配合。\n为修复错误，9月28日01:40将会强制登出一次，敬请配合。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -369,12 +369,12 @@
       "EndDate": "2026-02-03T13:04:23",
       "FileName": "PC_release.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/44/75/",
-      "Message": "「蔚蓝档案」PC版 发布！",
+      "Message": "《蔚蓝档案》PC版 发布！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://bluearchive.jp/news/newsJump/627",
       "DisplayOrder": 1,
-      "PopupOKText": "详细确认"
+      "PopupOKText": "详情确认"
     },
     {
       "GuidePopupId": 45,
@@ -384,7 +384,7 @@
       "EndDate": "2026-02-02T23:59:59",
       "FileName": "5th_survey_banner.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/45/78/",
-      "Message": "请协助问卷，领取奖励！",
+      "Message": "请协助完成问卷，获取奖励！",
       "SurveyId": 338603093,
       "NotifyUrl": null,
       "GotoUrl": null,
