@@ -1,5 +1,14 @@
 {
-  "Notices": [],
+  "Notices": [
+    {
+      "NoticeId": 992,
+      "StartDate": "2026-02-11T15:00:00",
+      "EndDate": "2026-02-18T11:00:00",
+      "Url": "https://prod-notice.bluearchive.cafe/prod/992/3516/index182477903.html",
+      "Title": "维护",
+      "DisplayOrder": 0
+    }
+  ],
   "Events": [
     {
       "NoticeId": 989,
@@ -16,6 +25,14 @@
       "Url": "https://prod-notice.bluearchive.cafe/prod/990/3517/index370516084.html",
       "Title": "概率提升招募",
       "DisplayOrder": 0
+    },
+    {
+      "NoticeId": 991,
+      "StartDate": "2026-02-11T14:00:00",
+      "EndDate": "2026-02-18T11:00:00",
+      "Url": "https://prod-notice.bluearchive.cafe/prod/991/3515/index300037005.html",
+      "Title": "活动介绍",
+      "DisplayOrder": 0
     }
   ],
   "Issues": [
@@ -24,7 +41,7 @@
       "StartDate": "2026-01-20T20:13:26",
       "EndDate": "2026-02-12T12:00:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/985/3505/index379949802.html",
-      "Title": "[1月20日（星期二）]已知错误",
+      "Title": "[1月20日(火曜日)]已知的缺陷",
       "DisplayOrder": 0
     }
   ],
@@ -311,7 +328,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新的主线剧情已更新。请重新启动一次应用以生效。\n限时抽卡券的使用期限为\n8月31日（星期三）10:59止，请注意不要忘记。\n今天11:00开始进行维护。请老师协助配合。\n为修复Bug，9月28日01:40将进行一次强制登出。请老师协助配合。"
+    "Text": "新的主线剧情已更新。为使其生效，请重新启动一次应用。\n限时抽卡券的使用期限为\n8月31日（周三）10:59止，请务必记得使用。\n今天11:00起进行维护。请老师配合。\n为修复缺陷，9月28日01:40将会出现一次强制登出。请老师配合。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -367,7 +384,7 @@
       "EndDate": "2026-02-02T23:59:59",
       "FileName": "5th_survey_banner.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/45/78/",
-      "Message": "请协助完成问卷领取奖励！",
+      "Message": "协助问卷调查，获取奖励吧！",
       "SurveyId": 338603093,
       "NotifyUrl": null,
       "GotoUrl": null,
