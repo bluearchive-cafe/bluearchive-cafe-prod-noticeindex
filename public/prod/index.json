@@ -33,7 +33,7 @@
       "StartDate": "2026-01-20T20:13:26",
       "EndDate": "2026-02-12T12:00:00",
       "Url": "https://prod-notice.bluearchive.cafe/prod/985/3505/index379949802.html",
-      "Title": "[1月20日（星期二）]已知的缺陷",
+      "Title": "[1月20日（星期二）]已知的Bug",
       "DisplayOrder": 0
     }
   ],
@@ -42,20 +42,7 @@
     "EndDate": "2026-02-12T19:00:00",
     "Text": "定期维护中"
   },
-  "Banners": [
-    {
-      "BannerId": 828,
-      "StartDate": "2026-01-29T12:25:26",
-      "EndDate": "2026-03-04T10:59:59",
-      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/828/1085/",
-      "FileName": [
-        "Event_Banner_854_2_Jp_596237339.png"
-      ],
-      "LinkedLobbyBannerId": 854,
-      "BannerType": 42,
-      "BannerDisplayType": 0
-    }
-  ],
+  "Banners": [],
   "ServerStatus": 7,
   "LatestClientVersion": "1.65.398397",
   "LatestAndroidClientVersion": "1.65.398397",
@@ -224,7 +211,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新的主线故事已更新。请重新启动一次应用以应用更改。\n限时抽卡券的使用期限为\n8月31日（星期三）10:59止，请务必记住。\n今天11:00将进行维护。请老师协助。\n为修复缺陷，9月28日01:40将会发生一次强制登出。请老师协助。"
+    "Text": "新的主线剧情已更新。为使其生效，请重新启动一次应用。\n限时抽卡券的使用期限为\n8月31日（星期三）10:59止，请务必记得使用。\n今天从11:00开始进行维护。请老师配合。\n为修复缺陷，9月28日01:40将会出现一次强制注销。请老师配合。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -265,7 +252,7 @@
       "EndDate": "2026-02-03T13:04:23",
       "FileName": "PC_release.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/44/75/",
-      "Message": "「蔚蓝档案」PC版 发布！",
+      "Message": "《蔚蓝档案》PC版 已上线！",
       "SurveyId": 0,
       "NotifyUrl": null,
       "GotoUrl": "https://bluearchive.jp/news/newsJump/627",
@@ -280,7 +267,7 @@
       "EndDate": "2026-02-02T23:59:59",
       "FileName": "5th_survey_banner.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/45/78/",
-      "Message": "请协助问卷调查并领取奖励！",
+      "Message": "参与问卷调查，领取奖励吧！",
       "SurveyId": 338603093,
       "NotifyUrl": null,
       "GotoUrl": null,
