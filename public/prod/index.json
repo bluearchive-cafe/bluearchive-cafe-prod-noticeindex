@@ -72,6 +72,30 @@
       "LinkedLobbyBannerId": 855,
       "BannerType": 0,
       "BannerDisplayType": 0
+    },
+    {
+      "BannerId": 841,
+      "StartDate": "2026-02-18T11:00:00",
+      "EndDate": "2026-02-25T03:59:59",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/841/1099/",
+      "FileName": [
+        "Raid_Banner_1_jp(屋外)_502022994.png"
+      ],
+      "LinkedLobbyBannerId": 0,
+      "BannerType": 4,
+      "BannerDisplayType": 0
+    },
+    {
+      "BannerId": 843,
+      "StartDate": "2026-02-18T11:00:00",
+      "EndDate": "2026-03-11T10:59:59",
+      "Url": "https://prod-notice.bluearchiveyostar.com/prod/Banner/843/1101/",
+      "FileName": [
+        "Event_Banner_Seasonal_80000_Jp_980586154.png"
+      ],
+      "LinkedLobbyBannerId": 80001,
+      "BannerType": 37,
+      "BannerDisplayType": 0
     }
   ],
   "ServerStatus": 1,
@@ -158,21 +182,21 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新主线剧情已更新。请重新启动一次应用以应用更改。\n限时抽卡券的使用期限为\n8月31日（周三）10:59止，请务必留意不要忘记。\n今天11:00开始进行维护，敬请老师配合。\n为修复Bug，9月28日01:40将会出现一次强制登出，敬请老师配合。"
+    "Text": "新的主线剧情已更新。请重新启动一次应用以使其生效。\n限时抽卡券的使用期限为\n8月31日（星期三）10:59止，请务必记住。\n今天11:00起将进行维护。老师请配合。\n为修复漏洞，9月28日01:40将会一次强制登出。老师请配合。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
     {
       "GachaPeriodDisplayId": 141,
-      "Text": "2022/02/23 メンテナンス後 ～ 2022/03/09 メンテナンス前まで"
+      "Text": "2022/02/23 维护后 ～ 2022/03/09 维护前"
     },
     {
       "GachaPeriodDisplayId": 142,
-      "Text": "2022/02/23 メンテナンス後 ～ 2022/03/09 メンテナンス前まで"
+      "Text": "2022/02/23 维护后 ～ 2022/03/09 维护前"
     },
     {
       "GachaPeriodDisplayId": 140,
-      "Text": "2022/02/23 メンテナンス後 ～ 2022/03/09 メンテナンス前まで"
+      "Text": "2022/02/23 维护后 ～ 2022/03/09 维护前"
     },
     {
       "GachaPeriodDisplayId": 6000,
@@ -187,7 +211,7 @@
     "EndDate": "2023-01-23T23:59:59",
     "FileName": "Lobby_Banner.png",
     "Url": "https://prod-notice.bluearchiveyostar.com/prod/SurveyGuidePopup/199990730/",
-    "Text": "蔚蓝档案2周年　特别问卷",
+    "Text": "蓝档2周年 特别问卷调查",
     "NotifyUrl": null
   },
   "GuidePopup": [
@@ -204,7 +228,7 @@
       "NotifyUrl": null,
       "GotoUrl": "https://bluearchive.jp/news/newsJump/627",
       "DisplayOrder": 1,
-      "PopupOKText": "详细确认"
+      "PopupOKText": "查看详情"
     },
     {
       "GuidePopupId": 45,
@@ -214,7 +238,7 @@
       "EndDate": "2026-02-02T23:59:59",
       "FileName": "5th_survey_banner.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/45/78/",
-      "Message": "协助问卷，领取奖励吧！",
+      "Message": "协助问卷调查并领取奖励！",
       "SurveyId": 338603093,
       "NotifyUrl": null,
       "GotoUrl": null,
