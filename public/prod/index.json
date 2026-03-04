@@ -101,60 +101,6 @@
       "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/515/index.html",
       "LinkedLobbyBannerId": 3100,
       "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 555,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/555/index.html",
-      "LinkedLobbyBannerId": 940,
-      "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 556,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/556/index.html",
-      "LinkedLobbyBannerId": 941,
-      "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 557,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/557/index.html",
-      "LinkedLobbyBannerId": 942,
-      "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 558,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/558/index.html",
-      "LinkedLobbyBannerId": 943,
-      "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 559,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/559/index.html",
-      "LinkedLobbyBannerId": 944,
-      "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 560,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/560/index.html",
-      "LinkedLobbyBannerId": 945,
-      "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 561,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/561/index.html",
-      "LinkedLobbyBannerId": 946,
-      "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 562,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/562/index.html",
-      "LinkedLobbyBannerId": 947,
-      "GachaDisplayTag": -1
-    },
-    {
-      "GachaProbabilityDisplayId": 563,
-      "Url": "https://prod-notice.bluearchive.cafe/prod/GachaProbabilityDisplay/563/index.html",
-      "LinkedLobbyBannerId": 8000,
-      "GachaDisplayTag": -1
     }
   ],
   "MarketAppleId": null,
@@ -162,7 +108,7 @@
     "PopupType": 1,
     "StartDate": "2023-12-19T00:00:00+09:00",
     "EndDate": "2023-12-27T11:00:00",
-    "Text": "新的主线故事已更新。为使其生效，请重新启动一次应用程序。\n期间限定的抽卡券使用期限为\n8月31日（星期三）10:59止，请务必留意不要忘记。\n今日11:00开始进行维护。请老师配合。\n为修复不具问题，9月28日01:40将会有一次强制登出。请老师配合。"
+    "Text": "新しいメインストーリーが更新されました。適用するため、アプリを一回再起動してください。\n期間限定のガチャチケットの使用期限は\n8月31日(水)の10:59までとなっております、お忘れになりませんよう、ご注意ください。\n本日11:00からメンテナンスを行います。先生のご協力をお願いいたします。\n不具合修正のため、9月28日01:40に一回強制ログアウトが発生します。先生のご協力をお願いいたします。"
   },
   "ContentLock": [],
   "GachaPeriodDisplay": [
@@ -218,7 +164,7 @@
       "EndDate": "2026-02-02T23:59:59",
       "FileName": "5th_survey_banner.png",
       "Url": "https://prod-notice.bluearchiveyostar.com/prod/GuidePopup/45/78/",
-      "Message": "协助问卷调查，获得奖励吧！",
+      "Message": "请协助问卷调查，领取奖励！",
       "SurveyId": 338603093,
       "NotifyUrl": null,
       "GotoUrl": null,
